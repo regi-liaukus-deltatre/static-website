@@ -4,7 +4,7 @@ function onYouTubeIframeAPIReady() {
 
   player = new YT.Player('YouTubeBackgroundVideoPlayer', {
 
-      videoId: '{$loadYouTubeVideoID}', // YouTube Video ID
+      videoId: 'dQw4w9WgXcQ', // YouTube Video ID
 
       width: 1280,               // Player width (in px)
 
@@ -20,17 +20,17 @@ function onYouTubeIframeAPIReady() {
 
           disablekb: 1,
 
-          controls: 0,        // Hide pause/play buttons in player
+          controls: 1,        // Hide pause/play buttons in player
 
-          showinfo: 0,        // Hide the video title
+          showinfo: 1,        // Hide the video title
 
           modestbranding: 1,  // Hide the Youtube Logo
 
           loop: 1,            // Run the video in a loop
 
-          fs: 0,              // Hide the full screen button
+          fs: 1,              // Hide the full screen button
 
-          autohide: 0,         // Hide video controls when playing
+          autohide: 1,         // Hide video controls when playing
 
           rel: 0,
 
